@@ -91,6 +91,8 @@ img{
   margin-left: 100px;
 }
 .review{
+  ALIGN-ITEMS: CENTER;
+DISPLAY: FLEX;
   padding-left: 5rem;
 }
 .review1{
@@ -132,7 +134,7 @@ img{
   padding:0 28%;
 }
 .fourth .review{
-  margin-top:5%; 
+  margin-top:5%;
 }
 .fourth .image-with-review{
   width: 100%;
@@ -147,7 +149,10 @@ img{
   padding-left: 8%;
 }
 .more-teaminfo{
-  padding-top: 7.9rem;
+  width: 70%;
+  display: flex;
+flex-wrap: wrap;
+align-content: center;
 }
 .last-pitch{
   width: 80%;
