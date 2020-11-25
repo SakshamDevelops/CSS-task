@@ -231,3 +231,16 @@ svg{
   position: relative;
     left: 8px;
 }
+.awards{
+  padding-bottom: 3%;
+  display: grid;
+    grid-template-columns: 50% 50%;
+  margin: 0 10%;
+}
+.recog{margin: 5px 10px 0;
+  width: 15%;
+  display: inline-block;
+}
+.recognition{
+  margin: 2% 0;
+}
