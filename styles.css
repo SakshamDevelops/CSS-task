@@ -287,6 +287,10 @@ svg{
     .awards{
       text-align: center;
     }
+  .bottom-container hr{
+      width: 8%;
+      margin: 5% 50%;
+    }
 }
 .footer-content{
   padding: 5px;
