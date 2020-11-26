@@ -287,7 +287,7 @@ svg{
     .awards{
       text-align: center;
     }
-  .bottom-container hr{
+    .bottom-container hr{
       width: 8%;
       margin: 5% 50%;
     }
@@ -304,3 +304,89 @@ footer{
   margin: 0;
   background-color: #13212e;
 }
+
+
+
+            /* LOADER */
+
+
+
+  .inner-circle{
+    transform: rotate(45deg);
+    border-color: #ffba93 #ffba93 transparent transparent;
+    border-style: solid;
+    border-radius: 5px;
+    top: 25px;
+    left: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    animation: spin1 2s linear 1s;
+    animation-iteration-count: infinite;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+  }
+  .middle-circle{
+    transform: rotate(-135deg);
+    border-color: #ffba93 #ffba93 transparent transparent;
+    border-style: solid;
+    border-radius: 5px;
+    top: 12.5px;
+    left: 12.5px;
+    margin: auto;
+    animation: spin2 2s linear infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+  }
+  .outer-circle{
+    animation: spin1 2s linear 1s;
+    animation-iteration-count: infinite;
+    transform: rotate(45deg);
+    border-color: #ffba93 #ffba93 transparent transparent;
+    border-style: solid;
+    border-radius: 5px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .loader{
+    width: 10vh;
+    height: 100vh;
+    background-color: #583d72;
+    margin: 0;
+  }
+  @keyframes spin2 {
+    0%{
+      transform: rotate(0deg);
+    }
+     100%{
+       transform: rotate(360deg);
+     }
+  }
+  @keyframes spin1 {
+    0%{
+      transform: rotate(0deg);
+    }
+     100%{
+       transform: rotate(-360deg);
+     }
+  }
